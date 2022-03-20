@@ -65,7 +65,7 @@ const Login= () => {
 		<body background= {front_page}>  
 
 		
-		{/* if (redirectVar ) { <Redirect to= "/"/> } */}
+		 if (redirectVar ) { <Redirect to= "/"/> } 
 		
 		<div class="header-middle">
 			
