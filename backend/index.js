@@ -88,6 +88,6 @@ app.use('/deletefav', deletefav);
 app.use('/editImage', editImage);
 app.use('/addPurchase', addPurchase)
 app.use('/getPurchase', getPurchase)
-app.listen(3001 ,"44.202.37.89", function () {
-    console.log("Server listening on port 3001");
+app.listen(3002 , function () {
+    console.log("Server listening on port 3002");
 });
