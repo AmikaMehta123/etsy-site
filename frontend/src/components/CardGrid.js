@@ -62,7 +62,7 @@ function CardGrid(props) {
                     <div class="single-products">
                             <div class="productinfo text-center">
                             <img src = {item.picture} alt="shirt_logo" height={200} width={150} className="img-card-image" />
-                                <h2>{item.price}</h2>
+                                <h2>${item.price}</h2>
                                 <p>{item.name}</p>
                             </div>
                             <div class="product-overlay">
