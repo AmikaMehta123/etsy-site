@@ -25,7 +25,7 @@ var joinTable = require('./joinTable');
 var getUser = require('./routes/getUser');
 var updateProfile = require('./routes/updateProfile');
 var checkAvialability = require('./routes/checkAvialability');
-var viewitem = require('./routes/viewitem');
+var viewitem = require('./routes/viewItem');
 var getShops = require('./routes/getShops');
 var purchase = require('./routes/purchase');
 var favourites = require('./routes/getFavourites');
@@ -79,7 +79,7 @@ app.use('/', joinTable);
 app.use('/getUser', getUser);
 app.use('/updateProfile', updateProfile);
 app.use('/checkAvialability', checkAvialability);
-app.use('/viewitem', viewItem);
+app.use('/viewitem', viewitem);
 app.use('/getShops', getShops);
 app.use('/purchase', purchase)
 app.use('/getFavourites', favourites);
