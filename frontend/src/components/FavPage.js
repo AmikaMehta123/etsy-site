@@ -134,7 +134,7 @@ export const FavPage = () => {
                 <div class="product-image-wrapper">
                     <div class="single-products">
                             <div class="productinfo text-center">
-                            <img src = {item.picture} alt="shirt_logo" />
+                            <img src = {item.picture} alt="shirt_logo" height={200} width={150}/>
                                 <h2>{item.price}</h2>
                                 <p>{item.name}</p>
                             </div>
