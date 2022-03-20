@@ -1,2 +1,2 @@
-const backendURL = "http://localhost:3002"
+const backendURL = "http://44.202.37.89:3002"
 export default backendURL;
