@@ -79,7 +79,7 @@ app.use('/', joinTable);
 app.use('/getUser', getUser);
 app.use('/updateProfile', updateProfile);
 app.use('/checkAvialability', checkAvialability);
-app.use('/viewitem', viewitem);
+app.use('/viewitem', viewItem);
 app.use('/getShops', getShops);
 app.use('/purchase', purchase)
 app.use('/getFavourites', favourites);
