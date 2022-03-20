@@ -99,7 +99,7 @@ export const FavPage = () => {
         <div className='col-sm-4'>
             <div className='row'>
                 <div className='col-sm-4'>
-                    <img src="src="https://etsy-images.s3.amazonaws.com/bob.png"" />
+                    <img src="https://etsy-images.s3.amazonaws.com/bob.png" />
                 </div>
                 <div className='col-sm-8'>
                     <div className='row pull-left'>
