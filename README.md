@@ -2,6 +2,7 @@
 Steps to Run:
 
 1.) Open two terminals, one for the frontend and another for backend
+<br>
 2.) For backend and frontend, use `npm install` to get node modules
 2.) In order to start the backend, run the command- node index.js
 3.) After this command, the backend would start running on the designated port 
