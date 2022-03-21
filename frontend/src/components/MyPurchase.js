@@ -31,6 +31,9 @@ const MyPurchase = () => {
 					}
 					
 				}
+				if(order.length > 0) {
+					newItems.push(order)
+				}
 				setAllItems(newItems);
 
             } else {
